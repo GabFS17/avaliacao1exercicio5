@@ -8,6 +8,8 @@ body {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 43, 75);
+    color: white;
 }
 
 ul {
@@ -15,19 +17,45 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
     padding: 10px;
 }
 
 li {
+    display: flex;
+    align-items: center;
     padding: 30px;
+    background-color: rgb(21, 78, 202);
+    
 }
 
 .frameResultado {
-    border: 2px solid black;
     padding: 10px;
+    height: 100vh;
 }
 
 .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 80%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+img {
+    opacity: 0.05;
+    height: 25vh;
+}
+
+#bg1 {
+    width: 150px;
+    object-fit: cover;
+    object-position: 42% 0;
+}
+
+a {
+    text-decoration: none;
+    user-select: none;
+    cursor: default;
 }
